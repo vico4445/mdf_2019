@@ -1,4 +1,5 @@
 import debug
+# TODO : pouvoir print n'importe quel type d'objet dans show.debug() !!!
 
 
 def input_as_list():
@@ -15,10 +16,12 @@ def main():
     lines = input_as_list()
     debug.show('Input : [' + ','.join(lines) + '] \n')
 
-    # Start of code
+    # Code
+    # Constant cast
     lines = [int(elem) for elem in lines]  # Cast lines values in wanted type !!!
-    couleurs = ['orange', 'jaune', 'vert', 'rose', 'bleu', 'violet']
-    print(couleurs[(5 + sum(lines)) % 6])
+
+    # Start of code
+    print('')
 
 
 

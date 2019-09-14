@@ -1,5 +1,4 @@
 import debug
-# TODO : pouvoir print n'importe quel type d'objet dans show.debug() !!!
 
 
 def input_as_list():
@@ -14,14 +13,14 @@ def input_as_list():
 
 def main():
     lines = input_as_list()
-    debug.show('Input : [' + ','.join(lines) + '] \n')
+    debug.show('Input : [' + ','.join(lines) + ']')
 
     # Code
     # Constant cast
     lines = [int(elem) for elem in lines]  # Cast lines values in wanted type !!!
 
     # Start of code
-    print('')
+    print('test')
 
 
 

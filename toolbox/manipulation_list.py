@@ -55,8 +55,14 @@ def neighbor_diag(tab, i, j):
     return l
 
 
+def manipulation_list_example():
+    l = [12, 9, 5, 8]
+    print(l.index(min(l)))
+
+
 if __name__ == '__main__':
     tab = [[3, 3, 4], [4, 2, 1], [4, 2, 1], [4, 2, 1]]
     print_matrice(tab)
     print(neighbor_tab(tab, 1, 1))
     print(neighbor_diag(tab, 1, 1))
+    manipulation_list_example()

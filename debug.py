@@ -1,8 +1,9 @@
 import sys
 
 
-def show(stringvalue):
-    sys.stderr.write(stringvalue)
+def show(value):
+    sys.stderr.write(str(value))
+    breakline()
 
 
 def breakline():

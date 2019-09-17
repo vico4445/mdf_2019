@@ -5,6 +5,9 @@
 Niveau 1:
     - Meilleur Dev de France Mai 2014 -- Trivial Pursuit : DONE
     - Meilleur Dev de France Septembre 2017 (Session 1) -- Les bureaux salesforce : DONE
-    - Meilleur Dev de France Septembre 2017 (Session 2) -- Salesforce Rollercoaster : DOING
+    - Meilleur Dev de France Septembre 2017 (Session 2) -- Salesforce Rollercoaster : DONE
     - Meilleur Dev de France Octobre 2018 (Session 12:00) -- Intérêts débiteurs : DONE
 
+Niveau 2:
+    - Meilleur Dev de France Octobre 2018 (Session 12:00) -- Saut à la perche : DONE
+    - Meilleur Dev de France Septembre 2017 (Session 1) -- Spirale : DONE

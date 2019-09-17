@@ -55,6 +55,31 @@ def neighbor_diag(tab, i, j):
     return l
 
 
+def get_next_elem(tab, i, j, i_previous, j_previous, direction='left'):
+    """
+        From two previous points in matrice, get next point in wanted direction
+    :param tab: matrice
+    :param i: actual point x
+    :param j: actual point y
+    :param i_previous: previous point x
+    :param j_previous: previous point y
+    :param direction: <'left', 'right', 'front''>
+    :return:
+    """
+    x, y = i - i_previous, j - j_previous
+    if direction == 'left':
+        elem = (i - y, j + x)
+    elif direction == 'right':
+        elem = (i + y, j - x)
+    elif direction == 'front':
+        elem = (i + x, j + y)
+    else:
+        raise
+    if elem[0] >= len(tab) or elem[0] < 0 or elem[1] >= len(tab[0]) or elem[1] < 0:
+        return None
+    return elem
+
+
 def manipulation_list_example():
     l = [12, 9, 5, 8]
     print(l.index(min(l)))

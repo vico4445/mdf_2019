@@ -1,4 +1,5 @@
 import debug
+# TODO : Attention il se peut que la sortie est une chaine de caractere pas uns liste ?
 
 
 def input_as_list():
@@ -21,8 +22,3 @@ def main():
 
     # Start of code
     print('test')
-
-
-
-
-

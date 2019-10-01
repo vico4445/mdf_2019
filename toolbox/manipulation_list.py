@@ -17,8 +17,10 @@ def rotate_matrix(matrix, direction):
 
 def print_matrice(matrice):
     for l in matrice:
-        sys.stdout.write((' '.join(map(str, l)) + '\n'))
+        sys.stderr.write((' '.join(map(str, l)) + '\n'))
 
+def list_of_string_to_matrice(grille):
+    return [list(elem) for elem in grille]
 
 def neighbor_tab(tab, i, j):
     """
@@ -39,7 +41,7 @@ def neighbor_tab(tab, i, j):
 
 
 def neighbor_diag(tab, i, j):
-    # Index Voisin en diagonal
+    # Index Voisin en diagonal et en croix
     n = len(tab)
     m = len(tab[0])
 

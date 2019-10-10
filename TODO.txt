@@ -11,6 +11,8 @@ Niveau 1:
 Niveau 2:
     - Meilleur Dev de France Octobre 2018 (Session 12:00) -- Saut à la perche : DONE
     - Meilleur Dev de France Septembre 2017 (Session 1) -- Spirale : DONE
+    - Meilleur Dev de France Octobre 2018 (Session 14:00) -- Tour de contrôle : DONE
+    - Meilleur Dev de France Octobre 2018 (Session 17:00) -- Puissance 4 : IN PROGRESS
 
 Niveau 3:
     - Meilleur Dev de France Septembre 2017 (Session 2) -- Démineur : DONE

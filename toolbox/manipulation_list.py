@@ -19,8 +19,14 @@ def print_matrice(matrice):
     for l in matrice:
         sys.stderr.write((' '.join(map(str, l)) + '\n'))
 
+
 def list_of_string_to_matrice(grille):
     return [list(elem) for elem in grille]
+
+
+def transpose(grille):
+    return list(map(list, zip(*grille)))
+
 
 def neighbor_tab(tab, i, j):
     """
